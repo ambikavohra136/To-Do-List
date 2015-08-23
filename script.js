@@ -15,7 +15,7 @@ $(document).ready(function()
 
 $(document).on('click','#clear',function()
 		{
-			$('.itemadd').css("display","none");
+			$('.itemadd').remove();
 		});
 
 });
